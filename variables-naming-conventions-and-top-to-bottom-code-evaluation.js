@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let userName = "Alice";
+let itemsBought = 5;
+let moneyUsed = 20;
+let marketPlace = "Walmart";
+let cityName = "St.Louis";
+let finalTotal = userName + " bought " + itemsBought + " items for $" + moneyUsed + " from " + marketPlace + " in " + cityName + ".";
 
-console.log(d);
+console.log(finalTotal);
